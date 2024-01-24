@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\ContactoController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ImagenController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
+use App\Http\Controllers\MenuController;
 use App\Http\Controllers\NosotrosController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PrinterController;
@@ -54,3 +56,9 @@ Route::get('/nosotros',[NosotrosController::class,'index'])->name('nosotros');
 
 //Contacto route
 Route::get('/contacto',[ContactoController::class,'index'])->name('contacto');
+
+//IMagenes route
+Route::post('/',[ImagenController::class,'store'])->name('imagenes.store');
+
+//Menu route
+Route::get('/Productos',[MenuController::class,'index'])->name('products');

@@ -4,6 +4,12 @@
     Nosotros
 @endsection
 
+@section('css')
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+@endsection
+
 @section('carrusel')
 <div>
     <!-- Start Carousel-->
@@ -12,7 +18,7 @@
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
              <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('img/HP.svg.png')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -85,4 +91,10 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('js')
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
 @endsection

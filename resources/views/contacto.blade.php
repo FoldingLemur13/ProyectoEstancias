@@ -4,6 +4,12 @@
     Contacto
 @endsection
 
+@section('css')
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+@endsection
+
 @section('carrusel')
 <div>
     <!-- Start Carousel-->
@@ -12,28 +18,17 @@
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
              <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('img/HP.svg.png')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
         <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
         </div>
         <!-- Slider controls -->
         <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -60,29 +55,89 @@
 <div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
         <h2 class="text-center text-2xl p-5 font-serif">Nosotros</h2>
-        <p class="text-center p-2">Somos una empresa dedicada a ofrecer servicios y soluciones tecnológicas de calidad para la optimización de procesos en Automatización en la cadena de suministros, trazabilidad en producción de inventarios, desarrollo de software y gestión de información en cualquier parte del mundo.</p>
+        <p class="text-center p-2">A continuación se encuentran nuestras redes sociales y otras opciones de contacto.
+        </p>
         <p class="text-center p-2">Somos un equipo de trabajo con actividad empresarial. Contamos con cobertura en Nuevo León y Tamaulipas. Tenemos mas de 10 años de experiencia en el mercado industrial.</p>
     </div>
-    <div class="w-3/4 m-auto b-32 p-10 items-center">
-        <h2 class="text-center text-2xl p-5 font-serif">Exito</h2>
-        <div class="p-7 w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
-            <div>
-                <h2>500</h2>
-                <p>Clientes satisfechos</p>
+    <div class="w-3/4 m-auto b-32 p-10">
+        <div class="p-2 b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-center">
+            <div class="">
+                <a class="text-2xl font-bold p-2">Direccion</a>
+                <p class="p-5">El Carmen, Nuevo León C.P 66583, Buena Vista</p>
             </div>
             <div>
-                <h2>250</h2>
-                <p>Proyectos exitosos</p>
+                <a class="text-2xl font-bold">TEL. O WHATSAPP</a>
+                <p class="p-5">(81)-174-13-496</p>
             </div>
-            <div>
-                <h2>1500</h2>
-                <p>Instalaciones</p>
+            <div class="flex flex-col">
+                <a class="text-2xl font-bold">EMAIL</a>
+                <a class="p-5">contacto@vitotechnologies.com</a>
             </div>
-            <div>
-                <h2>10</h2>
-                <p>Años de experiencia</p>
+            <div class="flex flex-col">
+                <a class="text-2xl font-bold">FACEBOOK</a>
+                <a class="p-5">Vito Technologies</a>
+            </div>
+            <div class="flex flex-col">
+                <a class="text-2xl font-bold">INSTAGRAM</a>
+                <a class="p-5">Vito_Technologies</a>
+            </div>
+            <div class="flex flex-col">
+                <a class="text-2xl font-bold">YOUTUBE</a>
+                <a class="p-5">Vito Technologies</a>
             </div>
         </div>
     </div>
+    <div class="bg-zinc-200 w-2/4 b-32 border m-auto shadow-2xl rounded-lg">
+        <form>
+            @csrf
+            <div class="flex flex-cols p-10">
+                <div class="mb-5 justify-center w-2/5 m-auto">
+                    <input
+                        id = "name"
+                        name = "name"
+                        type = "text"
+                        placeholder = "Nombre" 
+                        class = "border p-3 w-full"
+                    >
+                </div>
+                <div class="mb-5 justify-center w-2/5 m-auto">
+                    <input
+                        id = "email"
+                        name = "email"
+                        type = "email"
+                        placeholder = "Email"
+                        class = "border p-3 w-full"
+                    >
+                </div>
+            </div>
+            <div class="mb-5 w-10/12 m-auto">
+                <textarea
+                    id = "mensaje"
+                    name = "mensaje"
+                    type = "text"
+                    placeholder = "Mensaje"
+                    class = "border p-3 w-full h-full resize-y"
+                ></textarea>
+            </div>
+            <div class="mb-5 w-9/12 m-auto">
+                <input
+                    type="submit"
+                    value="Enviar mensaje"
+                    class="bg-green-600 hover:bg-green-900 transition-colors cursor-pointer font-bold w-full p-3 text-white rounded-lg">
+            </div>
+        </form>
+    </div>
+    <div class="w-3/4 m-auto b-32 p-10 items-center">
+        <h2 class="text-center text-2xl p-5 font-serif">Cotiza sin costo</h2>
+        <p class="text-center p-10">¿Tienes alguna duda o comentario? Contáctate con nosotros sin compromiso y uno de nuestros ejecutivos lo atenderá a la brevedad, podemos encontrar cualquier producto que requiera y cotizamos al instante.</p>
+    </div>
+    <div class="w-3/4 m-auto text-center">
+        <a class="rounded-full bg-slate-600 p-2 text-white">COTIZAR AHORA</a>
+    </div>
 </div>
+@endsection
+
+@section('js')
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 @endsection

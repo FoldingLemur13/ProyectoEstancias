@@ -4,11 +4,19 @@
     Agrega un nuevo producto
 @endsection
 
+@section('css')
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+@endsection
+
+
 @section('contenido')
 <div class="md:flex md:items-center">
     <div class="md:w-1/2 px-10">
-        <form action="/IMAGENES" id="dropzone" class="dropzone border-dashed border-2 w-full h-96 rounded flex flex-col jutify-center items-center">
-
+        <form action="{{route('imagenes.store')}}" id="dropzone" class="dropzone border-dashed border-4 w-full h-96 rounded flex flex-col jutify-center items-center" method="POST" enctype="multipart/form-data">
+            @csrf
         </form>
     </div>
     <div class="bg-zinc-200 w-2/4 b-32 border m-auto shadow-2xl rounded-lg p-10">
@@ -97,9 +105,12 @@
             </div>
             <!-- End Input Tipo -->
             <div class="mb-5 justify-center w-9/12 m-auto">
-                <input type="submit" value="Agregar Producto" class="bg-sky-600 hover:bg-sky-700 transition-colors cursor-pointer font-bold w-full p-3 text-white rounded-lg">
+                <input type="submit" value="Agregar Producto" class="bg-sky-600 hover:bg-sky-700 transzition-colors cursor-pointer font-bold w-full p-3 text-white rounded-lg">
             </div>
         </form>
     </div>
 </div>
+@endsection
+ 
+@section('js')
 @endsection

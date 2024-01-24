@@ -4,6 +4,12 @@
     Impresoras
 @endsection
 
+@section('css')
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+@endsection
+
 @section('carrusel')
 <div>
     <!-- Start Carousel-->
@@ -76,4 +82,9 @@
         <br>
     </div>
 </div>
+@endsection
+
+@section('js')
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 @endsection
