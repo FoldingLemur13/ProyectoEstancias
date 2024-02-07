@@ -65,27 +65,26 @@
 @section('contenido')
 <div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
-        <h2 class="text-center text-2xl p-5 font-serif">Nosotros</h2>
         <p class="text-center p-2">Somos una empresa dedicada a ofrecer servicios y soluciones tecnológicas de calidad para la optimización de procesos en Automatización en la cadena de suministros, trazabilidad en producción de inventarios, desarrollo de software y gestión de información en cualquier parte del mundo.</p>
         <p class="text-center p-2">Somos un equipo de trabajo con actividad empresarial. Contamos con cobertura en Nuevo León y Tamaulipas. Tenemos mas de 10 años de experiencia en el mercado industrial.</p>
     </div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
         <h2 class="text-center text-2xl p-5 font-serif">Exito</h2>
-        <div class="p-7 w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+        <div class="p-7 w-3/4 m-auto b-32 grid grid-cols-auto gap-10 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 text-center text-xl">
             <div>
-                <h2>500</h2>
+                <h2 class="font-bold text-2xl">500</h2>
                 <p>Clientes satisfechos</p>
             </div>
-            <div>
-                <h2>250</h2>
+            <div >
+                <h2 class="font-bold text-2xl">250</h2>
                 <p>Proyectos exitosos</p>
             </div>
             <div>
-                <h2>1500</h2>
+                <h2 class="font-bold text-2xl">1500</h2>
                 <p>Instalaciones</p>
             </div>
             <div>
-                <h2>10</h2>
+                <h2 class="font-bold text-2xl">10</h2>
                 <p>Años de experiencia</p>
             </div>
         </div>

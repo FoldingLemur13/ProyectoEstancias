@@ -17,7 +17,7 @@ class ImagenController extends Controller
         $nombreImagen = Str::uuid().".".$imagen->extension();
         //$path = $imagen->store('uploads');
         $imagenServidor = Image::make($imagen);
-        $imagenServidor->fit(1000,1000);
+        $imagenServidor->fit(200,200);
         $imagenPath = public_path('uploads').'/'.$nombreImagen;
         $imagenServidor->save($imagenPath);
         //return "Archivo guardado en: " . $path;

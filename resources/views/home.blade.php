@@ -69,16 +69,14 @@
         <hr class="border-4 border-black">
         <!-- Start Bienvenidos -->
         <div class="w-full m-auto b-32 bg-zinc-200">
-            <br><br>
-            <h1 class="text-black text-4xl font-serif font-bold text-center">Bienvenidos</h1>
-            <br><br>
+            <h1 class="text-black text-4xl font-serif font-bold text-center p-10">Bienvenidos</h1>
 
             <!-- Start Mensaje -->
-            <p class="font-sans text-pretty text-center m-auto w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veniam accusamus, recusandae saepe mollitia iure? Error, corporis. Provident qui ipsa unde tenetur eos blanditiis, quibusdam sequi laborum, ad cupiditate harum!</p>
+            <p class="font-sans text-pretty text-center m-auto w-3/4 p-4">Somos un equipo de profesionistas con cobertura en toda la republica mexicana y nos dedicamos al ramo de la tecnologia para optimizar,automatizar y eficientar procesos de conectividad para pequeñas,medianas y grandes empresas en las areas de</p>
             <!-- End Mensaje -->
 
             <!-- Start of columns for products and services-->
-            <div class="w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+            <div class="w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 p-4">
 
                 <!-- Start Equipos de Impresion -->
                 <div class="columns-2 gap-1 items-center flex">
@@ -88,11 +86,11 @@
                         </svg> 
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">                         
+                        <a class="items-center flex" href="{{route('printer','todos')}}">                         
                             Equipos de impresión
                         </a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum beatae neque architecto veritatis velit explicabo atque ab laboriosam in praesentium dolore, nam molestias a temporibus ducimus quae, quaerat maxime cumque!</p>
+                        <p class="text-justify">Ofrecemos diversos productos de diferentes marcas y categorias de impresion en base a las necesidades de nuestros clientes.</p>
                     </div>
                 </div>
                 <!-- End Equipos de Impresion -->
@@ -107,11 +105,11 @@
                           
                     </div>
                     <div class="w-5/6">    
-                        <a class="items-center flex">
-                            Soporte
+                        <a class="items-center flex" href="{{route('printer','todos')}}">
+                            Puntos de venta
                         </a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, facilis dolore sunt fugiat odit incidunt beatae amet nesciunt est sint, magnam quaerat eum aliquid ut vero impedit tempora nostrum reprehenderit!.</p>
+                        <p class="text-justify">Ofrecemos desde un accesorio,software de punto de venta,hasta todo el kit completo para arrancar su negocio desde cero.</p>
                     </div>
                 </div>
                 <!-- End Soporte -->
@@ -124,9 +122,9 @@
                           </svg>                          
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">CCTV</a>
+                        <a class="items-center flex" href="{{route('consumible','todos')}}">Consumibles</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eligendi ipsum magnam beatae, at dolores eius numquam deleniti dolor libero tempore error id aperiam. Molestiae voluptas officia soluta suscipit sed.</p>
+                        <p class="text-justify">Ofrecemos todo tipo de consumibles para tu negocio(etiquetas,ribbon,tarjeta PVC,toner,entre otros).</p>
                     </div>
                 </div>
                 <!-- End CCTV -->
@@ -139,9 +137,9 @@
                           </svg>                          
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Punto de venta</a>
+                        <a class="items-center flex" href="{{route('services')}}">Soporte</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, fugiat rem deserunt tempora soluta recusandae deleniti, illo, quibusdam labore consequatur inventore necessitatibus! Molestiae, eos! In necessitatibus illo cum voluptatibus at.</p>
+                        <p class="text-justify">Nuestro compromiso es ofrecerte soporte especializado,refacciones y soluciones a sus problemas en tiempo y forma a nivel nacional empresa.</p>
                     </div>
                 </div>
                 <!-- End Punto de venta -->
@@ -154,9 +152,9 @@
                           </svg>                         
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Software</a>
+                        <a class="items-center flex" href="{{route('services')}}">Software</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat voluptas architecto dolores quis, dolor earum iste officiis doloremque at vel nulla placeat exercitationem adipisci magnam temporibus, expedita, voluptate quam.</p>
+                        <p class="text-justify">Ofrecemos desarrollo de sitemas empresariales en base a las necesidades y especificaciones de nuestros clientes.</p>
                     </div>
                 </div>
                 <!-- End Software -->
@@ -169,9 +167,9 @@
                           </svg>                          
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Redes</a>
+                        <a class="items-center flex" href="{{route('computo','todos')}}">Infraestructura IT</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                        <p class="text-justify">Ofrecemos todo tipo de equipos empresariales desde un accesorio hasta un servidor de mision critica.</p>
                     </div>
                 </div>
                 <!-- End Redes -->
@@ -185,9 +183,9 @@
                         </svg>                          
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Consumibles</a>
+                        <a class="items-center flex" href="{{route('seguridad','todos')}}">CCTV</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                        <p class="text-justify">Utiliza la tecnologia en sistemas de seguridad,ofrecemos los mejores equipos CCTV para salvaguardar tu casa o negocio.</p>
                     </div>
                 </div>
                 <!-- End Consumibles -->
@@ -200,9 +198,9 @@
                         </svg>                         
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Infraestructura IT</a>
+                        <a class="items-center flex" href="{{route('redes','todos')}}">Redes</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                        <p class="text-justify">Manejamos cableado estructurado de diversas categorias para la instalacion REDES,UTP,FTP,Jacks, entre otros.</p>
                     </div>
                 </div>
                 <!-- End Infraestructura IT -->
@@ -215,9 +213,9 @@
                         </svg>                            
                     </div>
                     <div class="w-5/6">
-                        <a class="items-center flex">Control de Accesso</a>
+                        <a class="items-center flex" href="{{route('seguridad','todos')}}">Control de Accesso</a>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                        <p class="text-justify">Sistemas completos de accesos por biometrico,tarjeta,huella o codigo,controles de presencia y horarios,videoporteros,etc.</p>
                     </div>
                 </div>
                 <!-- End Control de Accesso-->
@@ -228,14 +226,14 @@
         <hr class="border-4 border-black">
         <!-- Start Mensaje-->
         <div class="w-full m-auto b-32 bg-stone-400 flex sm:h-2/5 xl:h-1/5">
-            <p class="text-center m-auto font-serif w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid modi ratione pariatur illum dolor laboriosam! Ullam, possimus reprehenderit sunt quibusdam facere est alias consequatur ratione pariatur unde earum magnam?</p>
+            <p class="text-center m-auto font-serif w-3/4">Podemos conseguir cualquier producto que necesites para tu pequeña,mediana o grande empresa,damos soluciones tecnologicas de calidad.</p>
         </div>
         <!-- End Mensaje-->
         <h1 class="border-4 border-black">
         <!-- Start Rama de Conocimiento -->
         <div class="w-full m-auto b-32 bg-zinc-200 flex flex-col">
             <h1 class="text-4xl font-serif m-auto text-center">Rama de conocimientos</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae ullam laudantium ab ipsam inventore nostrum voluptas, expedita reprehenderit dignissimos magni, placeat aliquid, ratione nobis itaque aperiam dolorum numquam at aut?</p>
+            <p class="text-center">Somos profesionales en los servicios y soluciones que ofrecemos,tenemos al personal altamente calificado para resolver o dar la asesoria necesaria que el cliente necesita.</p>
             <br>
             <!-- Start progress bar Telecomunicaciones -->
             <div class="h-7 relative max-w-xl w-full overflow-hidden m-auto">

@@ -54,13 +54,11 @@
 @section('contenido')
 <div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
-        <h2 class="text-center text-2xl p-5 font-serif">Nosotros</h2>
         <p class="text-center p-2">A continuación se encuentran nuestras redes sociales y otras opciones de contacto.
         </p>
-        <p class="text-center p-2">Somos un equipo de trabajo con actividad empresarial. Contamos con cobertura en Nuevo León y Tamaulipas. Tenemos mas de 10 años de experiencia en el mercado industrial.</p>
     </div>
     <div class="w-3/4 m-auto b-32 p-10">
-        <div class="p-2 b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-center">
+        <div class=" b-32 grid grid-cols-auto gap-10 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-center">
             <div class="">
                 <a class="text-2xl font-bold p-2">Direccion</a>
                 <p class="p-5">El Carmen, Nuevo León C.P 66583, Buena Vista</p>
@@ -110,7 +108,7 @@
                     >
                 </div>
             </div>
-            <div class="mb-5 w-10/12 m-auto">
+            <div class="mb-5 w-10/12 m-auto md:h-72">
                 <textarea
                     id = "mensaje"
                     name = "mensaje"

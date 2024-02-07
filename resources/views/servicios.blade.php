@@ -64,13 +64,61 @@
 @endsection
 @section('contenido')
 <div>
-    <div class="p-7 w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-white">
-        <div class="bg-slate-700">1</div>
-        <div class="bg-slate-700">2</div>
-        <div class="bg-slate-700">3</div>
-        <div class="bg-slate-700">4</div>
-        <div class="bg-slate-700">5</div>
-        <div class="bg-slate-700">6</div>
+    <div class="p-7 w-3/4 m-auto b-32 grid grid-cols-auto gap-5 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-black">
+        <div class = "bg-slate-500">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class="text-center p-1">
+                <a class="text-xl text-center">Control de acceso</a>
+                <p class=" bg-gray-200 text-black text-justify">Realizamos desde instalación completas desde cero hasta mantenimiento y/o reparación, venta de accesorios que componen dicho equipo (electrónicos, licencia de software, entre otros).</p>
+            </div>
+        </div>
+        <div class = "bg-slate-700">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class = "text-center p-1">
+                <a class="text-xl">Cableado de red</a>
+                <p class="bg-gray-200 text-black text-justify">Realizamos servicios de cableado estructurado interior/exterior de tipo par trenzado, fibra óptica y coaxial para cualquier tamaño de negocio / empresa.</p>
+            </div>
+        </div>
+        <div class = "bg-slate-700">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class = "text-center p-1">
+                <a class = "text-xl">Software</a>
+                <p class = "bg-gray-200 text-black text-justify">Desarrollamos sistemas empresarials a la medida en base a las necesidades de nuestros clientes, además del dominio y hosting administrado por nosotros.</p>
+            </div>
+        </div>
+        <div class="bg-slate-700">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class = "text-center p-1">
+                <a class = "text-xl">Maquila</a>
+                <p class = "bg-gray-200 text-black text-justify">Venta de diversos consumibles e impresión de etiquetas y tarjetas PVC con grabación en RFID.</p>
+            </div>
+        </div>
+        <div class="bg-slate-700">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class = "text-center p-1">
+                <a class = "text-xl">Soporte Tecnico</a>
+                <p class = "bg-gray-200 text-black text-justify">Brindamos asistencia vía remóto o presencial para rosolver problemas con equipos como terminales portátiles, impresoras de etiquetas, handheld, entre otros.</p>
+            </div>
+        </div>
+        <div class="bg-slate-700">
+            <div class = "bg-slate-200 text-center p-10 m-auto">
+                <p>Imagen</p>
+            </div>
+            <div class = "text-center p-1">
+                <a class = "text-center">Computacion</a>
+                <p class = "bg-gray-200 text-black text-justify">Hacemos mantenimiento, reparación y detección de problemas en cualquier equipo como Computadoras de escritorio, laptops, impresoras de oficina, etc.</p>
+            </div>
+        </div>
     </div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
         <h2 class="text-center p-5">Cotiza sin costo</h2>

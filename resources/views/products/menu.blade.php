@@ -78,15 +78,14 @@
                     </svg> 
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex" href="{{route('printer')}}">                         
+                    <a class="items-center flex" href="{{route('printer','todos')}}">                         
                         Equipos de impresión
                     </a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum beatae neque architecto veritatis velit explicabo atque ab laboriosam in praesentium dolore, nam molestias a temporibus ducimus quae, quaerat maxime cumque!</p>
+                    <p class="text-justify">Ofrecemos diversos productos de diferentes marcas y categorias de impresion en base a las necesidades de nuestros clientes.</p>
                 </div>
             </div>
             <!-- End Equipos de Impresion -->
-
             <!-- Start Soporte -->
             <div class="columns-2 gap-1 items-center flex">
                 <div class="w-1/6 m-auto">
@@ -97,15 +96,14 @@
                       
                 </div>
                 <div class="w-5/6">    
-                    <a class="items-center flex">
-                        Soporte
+                    <a class="items-center flex" href="{{route('computo','todos')}}">
+                        Computo
                     </a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, facilis dolore sunt fugiat odit incidunt beatae amet nesciunt est sint, magnam quaerat eum aliquid ut vero impedit tempora nostrum reprehenderit!.</p>
+                    <p class="text-justify">Ofrecemos todo tipo de equipos empresariales desde un accesorio hasta un servidor de mision critica.</p>
                 </div>
             </div>
             <!-- End Soporte -->
-
             <!-- Start CCTV -->
             <div class="columns-2 gap-1 items-center flex">
                 <div class="w-1/6 m-auto">
@@ -114,13 +112,12 @@
                       </svg>                          
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">CCTV</a>
+                    <a class="items-center flex" href="{{route('terminales','todos')}}">Terminales</a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eligendi ipsum magnam beatae, at dolores eius numquam deleniti dolor libero tempore error id aperiam. Molestiae voluptas officia soluta suscipit sed.</p>
+                    <p class="text-justify">Ofrecemos desde un accesorio, software de punto de venta, hasta todo kit completo para arrancar su negocio desde cero.</p>
                 </div>
             </div>
             <!-- End CCTV -->
-
             <!-- Start Punto de venta -->
             <div class="columns-2 gap-1 items-center flex">
                 <div class="w-1/6 m-auto">
@@ -129,13 +126,12 @@
                       </svg>                          
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Punto de venta</a>
+                    <a class="items-center flex" href="{{route('escaners','todos')}}">Escaners</a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, fugiat rem deserunt tempora soluta recusandae deleniti, illo, quibusdam labore consequatur inventore necessitatibus! Molestiae, eos! In necessitatibus illo cum voluptatibus at.</p>
+                    <p class="text-justify">Ofrecemos diversos productos de diferentes marcas y categorias de escaners en base a las necesidades de nuestros clientes.</p>
                 </div>
             </div>
             <!-- End Punto de venta -->
-
             <!-- Start Software -->
             <div class="columns-2 gap-1 items-center flex"> 
                 <div class="w-1/6 m-auto">
@@ -144,13 +140,12 @@
                       </svg>                         
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Software</a>
+                    <a class="items-center flex" href="{{route('proteccion','todos')}}">Proteccion</a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat voluptas architecto dolores quis, dolor earum iste officiis doloremque at vel nulla placeat exercitationem adipisci magnam temporibus, expedita, voluptate quam.</p>
+                    <p class="text-justify">Sistemas completos de accesos por biometrico,tarjeta,huella o codigo,controles de presencia y horarios,videoportetos,etc.</p>
                 </div>
             </div>
             <!-- End Software -->
-
             <!-- Start Redes -->
             <div class="columns-2 gap-1 items-center flex">
                 <div class="w-1/6 m-auto">
@@ -159,7 +154,7 @@
                       </svg>                          
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Redes</a>
+                    <a class="items-center flex" href="{{route('redes','todos')}}">Redes</a>
                     <br>
                     <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
                 </div>
@@ -175,9 +170,9 @@
                     </svg>                          
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Consumibles</a>
+                    <a class="items-center flex" href="{{route('consumible','todos')}}">Consumibles</a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                    <p class="text-justify">Ofrecemos todo tipo de consumibles para tu negocio(etiquetas,ribbon,tarjetas PVC,toner,entre otros).</p>
                 </div>
             </div>
             <!-- End Consumibles -->
@@ -190,9 +185,9 @@
                     </svg>                         
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Infraestructura IT</a>
+                    <a class="items-center flex" href="{{route('seguridad','todos')}}">Seguridad</a>
                     <br>
-                    <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
+                    <p class="text-justify">Sistemas completos de accessos por biometrico,tarjeta,huella o codigo,controles de presencia y horarios,videoporteros,etc.</p>
                 </div>
             </div>
             <!-- End Infraestructura IT -->
@@ -205,7 +200,7 @@
                     </svg>                            
                 </div>
                 <div class="w-5/6">
-                    <a class="items-center flex">Control de Accesso</a>
+                    <a class="items-center flex" href="{{route('terminales','todos')}}">Terminales</a>
                     <br>
                     <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti voluptas nemo sunt officia ullam alias nihil, modi illum ipsum enim ratione quo eius veritatis reprehenderit, eveniet, dolor aut assumenda quas.</p>
                 </div>
