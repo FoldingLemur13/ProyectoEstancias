@@ -18,7 +18,7 @@
         <div class="overflow-hidden relative md:h-full xl:h-full 2xl:h-full">
              <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset('img/red1.jpeg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('img/redes1.jpg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-96  py-5 text-center text-black md:block">
                     <h1 class="text-4xl font-bold">Redes</h1>
                 </div>
