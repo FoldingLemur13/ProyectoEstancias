@@ -15,14 +15,21 @@
     <!-- Start Carousel-->
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div class="overflow-hidden relative md:h-full xl:h-full 2xl:h-ful text-black">
              <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="{{asset('img/HP.svg.png')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('img/contacto.jpg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+            
+                <div class="absolute inset-x-[15%] bottom-96  py-5 text-center text-black md:block">
+                    <h1 class="text-4xl font-bold">Contacto</h1>
+                </div>
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="{{asset('img/contacto2.jpg')}}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                <div class="absolute inset-x-[15%] bottom-96  py-5 text-center text-black md:block">
+                    <h1 class="text-4xl font-bold">Contacto</h1>
+                </div>
             </div>
         </div>
         <!-- Slider indicators -->
@@ -33,7 +40,7 @@
         <!-- Slider controls -->
         <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
                 </svg>
                 <span class="sr-only">Previous</span>
@@ -41,7 +48,7 @@
         </button>
         <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                 </svg>
                 <span class="sr-only">Next</span>
@@ -54,32 +61,56 @@
 @section('contenido')
 <div>
     <div class="w-3/4 m-auto b-32 p-10 items-center">
-        <p class="text-center p-2">A continuación se encuentran nuestras redes sociales y otras opciones de contacto.
+        <h1 class="text-4xl font-bold text-center">CONTÁCTANOS</h1>
+        <hr>
+        <p class="text-center p-10">A continuación se encuentran nuestras redes sociales y otras opciones de contacto.
         </p>
     </div>
     <div class="w-3/4 m-auto b-32 p-10">
         <div class=" b-32 grid grid-cols-auto gap-10 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 text-center">
-            <div class="">
+            <div class="items-center">
+                <div class="">
+                    <img class="w-20 h-20 m-auto" src="{{asset('img/marcador-de-posicion.png')}}">
+                </div>
                 <a class="text-2xl font-bold p-2">Direccion</a>
                 <p class="p-5">El Carmen, Nuevo León C.P 66583, Buena Vista</p>
             </div>
             <div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20 m-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                      </svg>                                           
+                </div>
                 <a class="text-2xl font-bold">TEL. O WHATSAPP</a>
                 <p class="p-5">(81)-174-13-496</p>
             </div>
             <div class="flex flex-col">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20 m-auto">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                      </svg>                      
+                </div>
                 <a class="text-2xl font-bold">EMAIL</a>
                 <a class="p-5">contacto@vitotechnologies.com</a>
             </div>
             <div class="flex flex-col">
+                <div>
+                    <img class="w-20 h-20 m-auto" src="img/facebook6.png">
+                </div>
                 <a class="text-2xl font-bold">FACEBOOK</a>
                 <a class="p-5">Vito Technologies</a>
             </div>
             <div class="flex flex-col">
+                <div>
+                    <img class="w-20 h-20 m-auto" src="img/instagram.png">
+                </div>
                 <a class="text-2xl font-bold">INSTAGRAM</a>
                 <a class="p-5">Vito_Technologies</a>
             </div>
             <div class="flex flex-col">
+                <div>
+                    <img class="w-20 h-20 m-auto" src="img/youtube.png">
+                </div>
                 <a class="text-2xl font-bold">YOUTUBE</a>
                 <a class="p-5">Vito Technologies</a>
             </div>
@@ -128,9 +159,9 @@
     <div class="w-3/4 m-auto b-32 p-10 items-center">
         <h2 class="text-center text-2xl p-5 font-serif">Cotiza sin costo</h2>
         <p class="text-center p-10">¿Tienes alguna duda o comentario? Contáctate con nosotros sin compromiso y uno de nuestros ejecutivos lo atenderá a la brevedad, podemos encontrar cualquier producto que requiera y cotizamos al instante.</p>
-    </div>
-    <div class="w-3/4 m-auto text-center">
-        <a class="rounded-full bg-slate-600 p-2 text-white">COTIZAR AHORA</a>
+        <div class="w-3/4 m-auto text-center">
+            <a class="rounded-full bg-slate-600 p-2 text-white">COTIZAR AHORA</a>
+        </div>
     </div>
 </div>
 @endsection

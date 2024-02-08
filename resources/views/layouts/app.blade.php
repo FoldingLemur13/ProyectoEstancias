@@ -44,10 +44,7 @@
     </main>
 
     <!-- Content-->
-    <main class="mx-auto p-10 mt-10">
-        <h2 class="text-center text-2xl">    
-            @yield('titulo')
-        </h2>
+    <main class="w-full">
         @yield('contenido')
     </main>
     
